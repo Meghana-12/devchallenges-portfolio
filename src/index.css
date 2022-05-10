@@ -1,3 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .card {
+    @apply shadow-md rounded-md w-fit p-4 hover:shadow-xl bg-white;
+  }
+  .btn {
+    @apply rounded-md p-2 text-white bg-sky-500 font-semibold text-sm m-2;
+  }
+  .btn-outlined {
+    @apply rounded-md border-sky-800 p-1 pl-2 pr-2 font-semibold text-xs text-sky-500;
+  }
+  .chip {
+    @apply rounded-3xl p-1 pl-2 pr-2 text-white bg-sky-600 font-semibold text-xs m-1;
+  }
+
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
