@@ -12,7 +12,7 @@ function Experience(props) {
             </div>
             <div className='text-zinc-800 text-md font-semibold'>{props.role + ' '}</div>
             <div className='text-zinc-600 text-md italic pb-2'>{props.company}</div>
-            <div className='text-zinc-400 text-sm pb-4'>{props.xp}</div>
+            <div className='text-zinc-400 text-sm pb-4'>{props.children}</div>
             {/* <div></div> tech stack */}
         </div>
     </div>

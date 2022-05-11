@@ -4,7 +4,7 @@
 
 @layer components {
   .card {
-    @apply shadow-md rounded-md w-fit p-4 hover:shadow-xl bg-white;
+    @apply shadow-md rounded-xl w-fit p-4 hover:shadow-xl bg-white;
   }
   .btn {
     @apply rounded-md p-2 text-white bg-sky-500 font-semibold text-sm m-2;

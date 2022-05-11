@@ -15,6 +15,7 @@ function Project(props) {
             <div className=''>
               <button className='btn '>Check out the project!</button>
               <button className='btn-outlined '>Here's the Code</button>
+              {/* use icons instead */}
             </div>
         </div>
 
