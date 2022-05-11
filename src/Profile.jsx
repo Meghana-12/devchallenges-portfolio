@@ -9,15 +9,15 @@ function Profile(props) {
         <div className='flex flex-col p-4 w-full'>
           <div className='flex flex-row justify-between'>
           <div>
-            <div className=' text-2xl  font-semibold text-left text-zinc-700 pt-4'> Meghana Varanasi</div>
+            <div className=' text-2xl font-semibold text-left text-zinc-700 dark:text-white pt-4'> Meghana Varanasi</div>
             <div className='text-sm text-left text-zinc-400 pt-1'> Frontend Developer</div>
             {/* add graduation and recent work */}
           </div>
           <div className='pt-4 pb-4 '>
-              <div className='flex flex-row text-zinc-700 text-sm'>
+              <div className='flex flex-row text-zinc-700 dark:text-zinc-300 text-sm'>
                   <span class="material-icons">email</span> <div className='pl-2'>meghana.cosmos@gmail.com</div>
               </div>
-              <div className='flex flex-row text-zinc-700 text-sm'>
+              <div className='flex flex-row text-zinc-700 dark:text-zinc-300 text-sm'>
                   <span class="material-icons">link</span> <div className='pl-2'>Linkedin</div>
               </div>
               {/* add more social  */}
