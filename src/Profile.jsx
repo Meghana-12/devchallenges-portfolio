@@ -12,6 +12,7 @@ function Profile(props) {
             <div className=' text-2xl font-semibold text-left text-zinc-700 dark:text-white pt-4'> Meghana Varanasi</div>
             <div className='text-sm text-left text-zinc-400 pt-1'> Frontend Developer</div>
             {/* add graduation and recent work */}
+            <div> IIT Bhilai CSE '22 | CGPA: 8.1</div>
           </div>
           <div className='pt-4 pb-4 '>
               <div className='flex flex-row text-zinc-700 dark:text-zinc-300 text-sm'>
@@ -20,11 +21,17 @@ function Profile(props) {
               <div className='flex flex-row text-zinc-700 dark:text-zinc-300 text-sm'>
                   <span className="material-icons">link</span> <div className='pl-2'>Linkedin</div>
               </div>
+              <div>
+                <span> Github </span>
+              </div>
+              <div>
+                <span> twitter  </span>
+              </div>
               {/* add more social  */}
           </div>
         </div>
-        <div className='text-left text-zinc-400 text-sm'>Self-motivated developer, who is willing to learn and create outstanding UI applications.</div>
-        <button className='btn self-center'>Take a look at my resume!</button>
+        <div className='text-left text-zinc-400 text-sm'>I build apps, listen to music and tryin to figure things out.</div>
+        <button className='btn self-center place-end'>Take a look at my resume!</button>
         </div>
     </div>
   )

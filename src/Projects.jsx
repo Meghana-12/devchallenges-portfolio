@@ -52,7 +52,7 @@ function Projects() {
         setActive(value)
     }
   return (
-    <div  className='flex flex-col gap-4'>
+    <div  className='flex flex-col justify-evenly gap-4'>
         <div className='card text-left font-semibold w-full dark:text-white'> Projects ({projects.length}) 
             <div className='flex flex-row gap-2 flex-wrap m-2'>
                 <button className={`btn-outlined rounded-2xl border-2 ${active === 'all' ? 'dark:bg-sky-800 bg-sky-500 text-white' : ''}`} data-id='all' onClick={(e) => handleClick(e)}> All</button>
@@ -71,6 +71,7 @@ function Projects() {
             ))
         }
         </div> 
+        <div className="grow flex-1"></div>
         <div className='flex justify-center'>
             {Array.apply(null , {length :(projectsArray.length/2 + projectsArray.length%2)}).map((item, i) => (
                     <button className={ nav === i+1 ? 'nav-chip-selected' : 'nav-chip'} onClick={() => setNav(i+1)}> {i+1}</button>

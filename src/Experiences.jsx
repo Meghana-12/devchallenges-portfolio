@@ -7,7 +7,7 @@ import IITBh from './assets/images/xp/iitbhi.jpeg';
 
 function Experiences() {
   return (
-    <div className='card w-full'>
+    <div className='card w-full grow flex flex-col justify-evenly'>
             <div className='text-2xl text-left font-semibold pb-4 dark:text-white'>Experiences</div>
             <Experience img={Needl} role='SDE Intern'  company='Needl.AI' duration='May 2021 - Jul 2021'> 
             1. Migrated the old designs (components with stories, pages) related to Authentication written in JavaScript (Material UI) to new UI in Typescript (dynamic CSS styled-components, headless component libraries ReachUI, downshift) based on the Figma designs using best coding practices.

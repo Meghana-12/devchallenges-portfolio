@@ -3,6 +3,7 @@ import './App.css';
 import Profile from './Profile';
 import Skills from './Skills';
 import ProfileImage from './assets/images/2018bday.jpeg';
+import Cat from './assets/images/cat.jpeg'
 import Projects from './Projects'
 import Experiences from './Experiences'
 import Achievements from './Achievements'
@@ -19,13 +20,17 @@ function App() {
       <button className='btn self-end' onClick={()=> setIsDark(value => !value)}>Switch to {isDark ?  'Light' : 'Dark' } Mode!</button>
         <Profile img={ProfileImage}/>
       <div className='flex flex-row justify-between w-full gap-4'>
-        <div className='flex flex-col items-center md:w-2/5 w-full gap-4 '>
+        <div className='flex flex-col md:w-2/5 w-full gap-4'>
             <Skills/>
             <Achievements/>
             <Blogs/>
             <Music/>
+            <div className='card overflow-hidden grow flex flex-col justify-evenly'>
+              <div className='title'> Also... cats are super cute, right? </div>
+                <img src={Cat} alt='cats'/>
+            </div>
         </div>
-        <div className='flex flex-col items-center md:w-3/5 w-full gap-4  m-2 '>
+        <div className='flex flex-col items-center md:w-3/5 w-full gap-4'>
           <Experiences/>
            <Projects/> 
         </div>
