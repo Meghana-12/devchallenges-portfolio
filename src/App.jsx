@@ -23,7 +23,7 @@ function App() {
             <Skills/>
             <Achievements/>
             <Blogs/>
-            {/* <Music/> */}
+            <Music/>
         </div>
         <div className='flex flex-col items-center md:w-3/5 w-full gap-4  m-2 '>
           <Experiences/>
