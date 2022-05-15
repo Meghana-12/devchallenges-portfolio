@@ -4,7 +4,7 @@
 
 @layer components {
   .card {
-    @apply shadow-md rounded-xl w-fit p-4 hover:shadow-xl bg-white dark:bg-slate-900 dark:bg-slate-800;
+    @apply shadow-md rounded-xl w-fit p-6 hover:shadow-xl bg-white dark:bg-slate-900 dark:bg-slate-800;
   }
   .btn {
     @apply rounded-md p-2 text-white bg-sky-500 font-semibold text-sm m-2;
@@ -20,6 +20,12 @@
   }
   .nav-chip-selected {
     @apply border-2 border-sky-800  m-1  w-8 h-8 text-sm bg-sky-800 text-white;
+  }
+  .title {
+    @apply text-2xl text-left font-semibold pb-4 dark:text-white;
+  }
+  .secondary {
+    @apply text-zinc-800 dark:text-zinc-300 font-semibold
   }
 }
 body {

@@ -29,7 +29,12 @@ function Experiences() {
             {/* collapsable bar */}
             </Experience>
             <hr/>
-            <Experience img={Ignitus} role='SDE Intern'  company='Ignitus' duration='Apr 2020 - Jun 2020' />
+            <Experience img={Ignitus} role='SDE Intern'  company='Ignitus' duration='Apr 2020 - Jun 2020' > 
+            ReactJs(Hooks), Typescript, Router, Emotion (Dynamic CSS), git, Github.
+            <br/>1. Created custom React Js reusable design components for existing websites and applications.
+            <br/>2. Assisted in troubleshooting issues on web-based systems.
+            <br/>3. Created prototypes and experimented with new technologies and features as assigned.
+            </Experience>
             <hr/>
             <Experience img={IITBh} role='General Secretary of Cultural and Media Affairs'  company='IIT Bhilai' duration='Apr 2019 - Apr 2020' />
     </div>

@@ -15,10 +15,10 @@ function Profile(props) {
           </div>
           <div className='pt-4 pb-4 '>
               <div className='flex flex-row text-zinc-700 dark:text-zinc-300 text-sm'>
-                  <span class="material-icons">email</span> <div className='pl-2'>meghana.cosmos@gmail.com</div>
+                  <span className="material-icons">email</span> <div className='pl-2'>meghana.cosmos@gmail.com</div>
               </div>
               <div className='flex flex-row text-zinc-700 dark:text-zinc-300 text-sm'>
-                  <span class="material-icons">link</span> <div className='pl-2'>Linkedin</div>
+                  <span className="material-icons">link</span> <div className='pl-2'>Linkedin</div>
               </div>
               {/* add more social  */}
           </div>
