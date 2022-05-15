@@ -8,31 +8,30 @@ const projects = [
     {
         img : Portfolio,
         key: 'Portfolio Website (This one right here XD)',
-        title : 'Portfolio Website (This one right here XD)',
+        title : 'Portfolio Website',
         hashtags : ['reactjs' , 'tailwind'],
-        description : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis lorem ut libero malesuada feugiat. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Nulla quis lorem ut libero malesuada feugiat.'
+        project_link: 'https://meghana-12.github.io/',
+        code_link : 'https://github.com/Meghana-12/devchallenges-portfolio',
+        description : <div>Its this project right here XD! I built this as part of the <a className='font-semibold underline' href='https://devchallenges.io/challenges/5ZnOYsSXM24JWnCsNFlt'>devchallenges</a>. I took most of the design inspiration from the figma designs provided by them.</div>
     },
     {
         img : Kozy,
         key : 'Kozy Classroom | LSM | Microsoft Engage 2021',
         title : 'Kozy Classroom | LSM | Microsoft Engage 2021',
         hashtags : ['reactjs' , 'react-router', 'firebase'],
-        description : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis lorem ut libero malesuada feugiat. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Nulla quis lorem ut libero malesuada feugiat.'
+        project_link: 'https://kozy-klassroom.firebaseapp.com/',
+        code_link: 'https://github.com/Meghana-12/kozy-klassroom',
+        description : <div>Kozy Klassroom is Learning Management System (Submission Portal + Forum) created using ReactJS, material ui, material ui template, react router, firebase. I built this as part of <b>the Microsoft Engage Program 2021</b></div>
     },
     {
         img : ChatApp,
         key : 'Chat Application',
         title : 'Chat Application',
         hashtags : ['reactjs' , 'firebase'],
-        description : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis lorem ut libero malesuada feugiat. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Nulla quis lorem ut libero malesuada feugiat.'
+        project_link :'https://chat-app-deploy-v1.vercel.app/',
+        code_link: 'https://github.com/Meghana-12/Chat-App',
+        description : 'This is a simple Chat application built using ReactJS and firebase. This helped my get hang of Firebase.'
     },
-    // {
-    //     img : Portfolio,
-    //     key : 'Portfolio Website (This one right here XD) -2',
-    //     title : 'Portfolio Website (This one right here XD) -2',
-    //     hashtags : ['reactjs' , 'tailwind'],
-    //     description : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis lorem ut libero malesuada feugiat. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Nulla quis lorem ut libero malesuada feugiat.'
-    // }
 
 ]
 
@@ -53,7 +52,7 @@ function Projects() {
     }
   return (
     <div  className='flex flex-col justify-evenly gap-4 '>
-        <div className='card text-left font-semibold w-full dark:text-white'> Projects ({projects.length}) 
+        <div className='card text-left font-semibold w-full dark:text-white'> Projects ({projectsArray.length}) 
             <div className='flex flex-row gap-2 flex-wrap m-2'>
                 <button className={`btn-outlined rounded-2xl border-2 ${active === 'all' ? 'dark:bg-sky-800 bg-sky-500 text-white' : ''}`} data-id='all' onClick={(e) => handleClick(e)}> All</button>
                 <button className={`btn-outlined rounded-2xl border-2 ${active === 'reactjs' && 'dark:bg-sky-800 bg-sky-500 text-white'}`} data-id='reactjs' onClick={(e) => handleClick(e)}>   ReactJS </button> 

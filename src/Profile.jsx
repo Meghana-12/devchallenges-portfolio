@@ -22,7 +22,7 @@ function Profile(props) {
             <div className='text-lg text-left text-zinc-600 dark:text-zinc-300 font-semibold'> IIT Bhilai CSE '22 | CGPA: 8.1</div>
             </div>
             <div className='text-left text-zinc-500 dark:text-zinc-400 font-semibold'>
-              Hi Amigos! I build apps, listen to music and currently , tryin to figure things out. 
+              Hi Amigos! I build apps, listen to music and currently, tryin to figure things out. 
              </div>
              <br/>
              <div className='text-left text-zinc-400 text-sm'>
@@ -35,19 +35,19 @@ function Profile(props) {
               is the only thing I do, darling, you got me all wrong, I play guitar, make art and more importantly have fun :D  <br/>
               <b>Thanks for stopping by! I hope you have a Wonderful day!</b>
               </div>
-        <button className='btn self-center place-end'>Take a look at my resume!</button>
+        <a className='btn self-center place-end' href='./assets/Meghana_Resume.pdf' download target="_blank">Take a look at my resume!</a>
         </div>
         <div className='flex sm:flex-col sm:justify-start justify-center'>
               <a className='icon-button' href='mailto:meghana.cosmos@gmail.com' target='_blank' rel="noreferrer">
                   <img src={Mail} alt='mail'/>
               </a>
-              <a className='icon-button' href='https://www.linkedin.com/in/meghana100/'>
+              <a className='icon-button' href='https://www.linkedin.com/in/meghana100/' target='_blank' rel="noreferrer">
                   <img src={Linkedin} alt='linkedin'/>
               </a>
-              <a className='icon-button' href='https://github.com/Meghana-12'>
+              <a className='icon-button' href='https://github.com/Meghana-12' target='_blank' rel="noreferrer">
                   <img src={Github} alt='github' className='dark:bg-white dark:rounded'/>
               </a>
-              <a className='icon-button' href='https://twitter.com/meghana_cosmos'>
+              <a className='icon-button' href='https://twitter.com/meghana_cosmos' target='_blank' rel="noreferrer">
                   <img src={Twitter} alt='twitter' cla/>
               </a>
           </div>
