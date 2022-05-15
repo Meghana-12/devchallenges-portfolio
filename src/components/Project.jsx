@@ -6,7 +6,7 @@ function Project(props) {
         <div className='rounded-md overflow-hidden'>
             <img src={props.img} alt={props.title} />
         </div>
-        <div className='flex flex-col p-4 '>
+        <div className='flex flex-col sm:p-4 '>
             <div className='flex flex-row flex-wrap gap-3 '>
             {props.hashtags.map(hashtag => ( <div key={hashtag} className='text-zinc-700 dark:text-zinc-300 font-medium text-sm'> #{hashtag} {" "}</div> ))}
             </div>

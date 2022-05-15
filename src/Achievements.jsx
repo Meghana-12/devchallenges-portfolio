@@ -8,7 +8,7 @@ import Technica from './assets/images/xp/technica.png'
 
 function Achievements() {
   return (
-    <div className='card flex flex-col gap-4'>
+    <div className='card flex flex-col gap-4 '>
             <div className='text-2xl text-left font-semibold pb-4 dark:text-white'>Achievements</div>
             <Achievement img={MLH} role="MLH Prep Fellow '22"  duration='Apr 22'/>
             <Achievement img={Microsoft} role='Mentee, Microsoft Engage 2021'  duration='Nov 2021' />

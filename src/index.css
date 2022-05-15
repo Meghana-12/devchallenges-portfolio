@@ -4,10 +4,10 @@
 
 @layer components {
   .card {
-    @apply shadow-md rounded-xl w-fit p-6 hover:shadow-xl bg-white dark:bg-slate-900 dark:bg-slate-800;
+    @apply shadow-md rounded-xl w-fit p-6 hover:shadow-xl bg-white dark:bg-slate-800;
   }
   .btn {
-    @apply rounded-md p-2 text-white bg-sky-500 font-semibold text-sm m-2;
+    @apply rounded-md p-2 text-white bg-sky-500 font-semibold text-sm m-2 hover:ease-in hover:duration-300;
   }
   .btn-outlined {
     @apply rounded-md border-sky-800 p-1 pl-2 pr-2 font-semibold text-xs text-sky-500;
@@ -26,6 +26,9 @@
   }
   .secondary {
     @apply text-zinc-800 dark:text-zinc-300 font-semibold
+  }
+  .icon-button {
+    @apply w-10 transition hover:w-10 hover:duration-150 ease-in-out p-0.5 hover:p-0 m-2
   }
 }
 body {
